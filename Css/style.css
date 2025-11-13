@@ -220,6 +220,175 @@ footer {
 }
 
 
+/* ----------------------------------- MOBIL og TABLET -------------------------------------- */
+
+@media screen and (max-width: 768px){
+
+/*------------ header -----------*/
+
+.forside-banner-mobil{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+}
+
+.lav-nyt{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.lav-nyt-diy{
+    position: absolute;
+    top: 43%;
+    left: 53%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.lav-nyt-kontakt{
+    position: absolute;
+    top: 48%;
+    left: 52%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    color: #3f2a1a;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.forside-banner{
+    display: none;
+}
+
+header nav{
+    display: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1.5rem;
+}
+
+nav li a{
+    color: #333;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+    border-radius: 4px;
+    background-color: rgb(145, 119, 80, 0.5)
+}
+
+.show{
+    display: block;
+    position: absolute;
+    top: 49px;
+    left: 70%;
+    background-color:  #DBCCBE;
+    width: 50%;
+    min-height: 20%;
+    border-radius: 8px;
+}
+
+button#bars{
+    background-color: #DBCCBE;
+    border-radius: 5px;
+    font-size: 20px;
+    position: absolute;
+    top: 3%;
+    left: 85%;
+}
+
+/* --------- forside ------------ */
+
+.pil-hen, .pil-ned{
+    display: none;
+}
+
+.tek1, .tek2, .tek3{
+    background-color: #DBCCBE;
+    border: 2px #000000;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.hoo3, .tek3{
+    order: +2;
+}
+
+.hoo1{
+    margin-top: 1rem;
+}
+
+.hoo1, .hoo2, .hoo3{
+    border: 2px #000000;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.tek1, .hoo1, .tek2, .hoo2{
+    grid-column: 3;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.tek1{
+    margin-bottom: 0.6rem;
+}
+
+.tek3, .hoo3{
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+.DIY-sec-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* --------- Main DIY -----------*/
+
+.DIY-sec-1, .DIY-sec-2, .DIY-sec-3, .DIY-sec-4{
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: -1.5rem;
+}
+
+.bi1, .bi2, .bi31, .bi6{
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+.bi32, .bi33, .bi41, .bi42, .bi51, .bi52{
+    width: 49%;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+/* --------- footer-----------*/
+
+.ikoner{
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+}
 
 /* ---------------------------------------- DESKTOP ------------------------------------------- */
 
@@ -399,177 +568,6 @@ main{
     display: flex;
     flex-direction: row;
     font-size: 2rem; 
-}
-
-}
-
-
-/* ----------------------------------- MOBIL og TABLET -------------------------------------- */
-
-@media screen and (max-width: 768px){
-
-/*------------ header -----------*/
-
-.forside-banner-mobil{
-    position: relative;
-    width: 100%;
-    height: auto;
-    border-radius: 0;
-}
-
-.lav-nyt{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    bottom: 5%;
-    transform: translate(-50%, -50%);
-    color: #3f2a1a;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.lav-nyt-diy{
-    position: absolute;
-    top: 43%;
-    left: 53%;
-    bottom: 5%;
-    transform: translate(-50%, -50%);
-    color: #3f2a1a;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.lav-nyt-kontakt{
-    position: absolute;
-    top: 48%;
-    left: 52%;
-    bottom: 5%;
-    transform: translate(-50%, -50%);
-    color: #3f2a1a;
-    font-size: 3rem;
-    text-align: center;
-}
-
-.forside-banner{
-    display: none;
-}
-
-header nav{
-    display: none;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 1.5rem;
-}
-
-nav li a{
-    color: #333;
-    text-decoration: none;
-    font-size: 1.3rem;
-}
-
-nav li a:hover{
-    text-decoration: underline;
-    border-radius: 4px;
-    background-color: rgb(145, 119, 80, 0.5)
-}
-
-.show{
-    display: block;
-    position: absolute;
-    top: 49px;
-    left: 70%;
-    background-color:  #DBCCBE;
-    width: 50%;
-    min-height: 20%;
-    border-radius: 8px;
-}
-
-button#bars{
-    background-color: #DBCCBE;
-    border-radius: 5px;
-    font-size: 20px;
-    position: absolute;
-    top: 3%;
-    left: 85%;
-}
-
-/* --------- forside ------------ */
-
-.pil-hen, .pil-ned{
-    display: none;
-}
-
-.tek1, .tek2, .tek3{
-    background-color: #DBCCBE;
-    border: 2px #000000;
-    border-radius: 10px;
-    padding: 1rem;
-}
-
-.hoo3, .tek3{
-    order: +2;
-}
-
-.hoo1{
-    margin-top: 1rem;
-}
-
-.hoo1, .hoo2, .hoo3{
-    border: 2px #000000;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.tek1, .hoo1, .tek2, .hoo2{
-    grid-column: 3;
-    border-radius: 10px;
-    border: 1px solid #000000;
-}
-
-.tek1{
-    margin-bottom: 0.6rem;
-}
-
-.tek3, .hoo3{
-    border-radius: 10px;
-    border: 1px solid #000000;
-}
-
-.DIY-sec-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-/* --------- Main DIY -----------*/
-
-.DIY-sec-1, .DIY-sec-2, .DIY-sec-3, .DIY-sec-4{
-    padding: 1rem;
-    border-radius: 8px;
-    margin-bottom: -1.5rem;
-}
-
-.bi1, .bi2, .bi31, .bi6{
-    width: 100%;
-    height: auto;
-    border: 1px solid #000000;
-}
-
-.bi32, .bi33, .bi41, .bi42, .bi51, .bi52{
-    width: 49%;
-    height: auto;
-    border: 1px solid #000000;
-}
-
-/* --------- footer-----------*/
-
-.ikoner{
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem;
 }
 
 }
