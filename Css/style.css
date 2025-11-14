@@ -297,7 +297,8 @@ header nav{
 
 nav ul {
     list-style-type: none;
-    padding: 1.5rem;
+    padding-top: 0.5rem;
+    padding-left: 0.9rem;
 }
 
 nav li a{
@@ -316,10 +317,10 @@ nav li a:hover{
     display: block;
     position: absolute;
     top: 49px;
-    left: 70%;
+    left: 69%;
     background-color:  #DBCCBE;
-    width: 50%;
-    min-height: 20%;
+    width: 29%;
+    min-height: 14%;
     border-radius: 8px;
 }
 
@@ -383,10 +384,16 @@ button#bars{
 
 /* --------- Main DIY -----------*/
 
-.DIY-sec-1, .DIY-sec-2, .DIY-sec-3, .DIY-sec-4{
-    padding: 1rem;
+.DIY-sec-1{
     border-radius: 8px;
-    margin-bottom: -1.5rem;
+    margin-bottom: 0.5rem;
+    gap: 0.4rem;
+}
+
+.DIY-sec-2, .DIY-sec-3, .DIY-sec-4{
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .bi1, .bi2, .bi31, .bi6{
