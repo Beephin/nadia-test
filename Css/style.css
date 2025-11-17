@@ -4,7 +4,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-/* ------------------ tekst dekoration ------------------*/
+/* ------------------ Tekst dekoration - generalt ------------------*/
 
 h1{
     color: #2E1B0C;
@@ -57,7 +57,7 @@ address{
     transform: scale(1.05);
 }
 
-/* -------------------  Main - forside -------------------*/
+/* -------------- Main - forside ---------------*/
 
 .main-sec{
     gap: 1.5rem;
@@ -82,7 +82,7 @@ address{
     border: 1px solid #000000;
 }
 
-/* -------------------  Main - DIY -------------------*/
+/* ---------------- Main - DIY ------------------*/
 
 .DIY-main{
     gap: 1.5rem;
@@ -111,7 +111,7 @@ img{
     margin-bottom: 1rem;
 }
 
-/* -------------------  Main - Kontakt -------------------*/
+/* --------------- Main - Kontakt --------------*/
 
 .main-sec-kon{
     gap: 1.5rem;
@@ -198,7 +198,7 @@ input[type=submit]:hover{
 	width: 1px;
 }
 
-/* -------------------  Footer -------------------*/
+/* ------------------ Footer ------------------*/
 
 footer {
     display: flex;
@@ -241,11 +241,11 @@ footer {
 }
 
 
-/* ----------------------------------- MOBIL og TABLET -------------------------------------- */
+/* ------------------------------------- MOBIL og TABLET ---------------------------------------- */
 
 @media screen and (max-width: 768px){
 
-/*------------ header -----------*/
+/*------------------- Header ------------------*/
 
 .forside-banner-mobil{
     position: relative;
@@ -333,7 +333,7 @@ button#bars{
     left: 85%;
 }
 
-/* --------- forside ------------ */
+/* -------------- Main - forside -------------- */
 
 .pil-hen, .pil-ned{
     display: none;
@@ -382,7 +382,7 @@ button#bars{
     justify-content: space-around;
 }
 
-/* --------- Main DIY -----------*/
+/* ----------------- Main DIY ----------------*/
 
 .DIY-sec-1{
     border-radius: 8px;
@@ -408,7 +408,7 @@ button#bars{
     border: 1px solid #000000;
 }
 
-/* --------- footer-----------*/
+/* ------------------ footer ------------------*/
 
 .ikoner{
     display: flex;
@@ -420,11 +420,11 @@ button#bars{
 
 }
 
-/* ---------------------------------------- DESKTOP ------------------------------------------- */
+/* ----------------------------------------- DESKTOP -------------------------------------------- */
 
 @media screen and (min-width: 769px){
 
-/* ---------- header ----------- */
+/* ------------------ Header ------------------ */
 
 #bars{
     display: none;
@@ -507,7 +507,7 @@ nav li a:hover{
     border-radius: 0;
 }
 
-/* ------------ Main -forside ----------*/
+/* --------------- Main - forside --------------*/
 
 .main-sec{
     display: grid;
@@ -550,7 +550,7 @@ nav li a:hover{
     height: auto;
 }
 
-/* ---------- Main -DIY ------------- */
+/* ---------------- Main - DIY ---------------- */
 
 .DIY-main{
     display: grid;
@@ -580,7 +580,7 @@ main{
     border: 1px solid #000000;
 }
 
-/*----------- Main -kontakt ---------- */
+/*--------------- Main - Kontakt --------------- */
 
 .main-sec-kon{
     display: grid;
@@ -592,7 +592,7 @@ main{
     background-color: #EDE3D1;
 }
 
-/* ------------- footer ------------- */
+/* ------------------ footer -------------------- */
 
 .ikoner{
     display: flex;
